@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 today=$(date +"%Y-%m-%d")
-postpath="./_posts/"
+postpath="./_posts"
 
 echo "Enter the title of the post"
 read jekyllPost
