@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a Computer Science student and I'm interested in almost anything in this field, algorithms, compilers, low level programming and more!
 
-### More Information
+### CTF
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+If you would like to play CTF or for anything else related to Reverse Engineering and other stuff, don't hesitate to contact me on any social platform, I'm certainly not a pro but I like to learn new stuff!
