@@ -1,0 +1,19 @@
+---
+layout: page
+title: Tags
+header: Posts By Tag
+group: navigation
+sitemap: false
+---
+
+{% for tag in site.tags %}
+<div class="posts">
+	<h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+	{% assign pages_list = tag[1] %}
+	{% for post in pages_list %}
+	<article class="post">
+		<p>{{ post.date | date: "%F" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+	</article>
+	{% endfor %}
+</div>
+{% endfor %}
